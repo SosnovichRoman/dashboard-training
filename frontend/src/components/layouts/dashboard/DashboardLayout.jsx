@@ -26,7 +26,7 @@ export default function DashboardLayout({ children }) {
 					</Link>
 				</div>
 			</div>
-			<div className='h-full flex justify-center items-center'>{children}</div>
+			{children}
 		</div>
 	)
 }
