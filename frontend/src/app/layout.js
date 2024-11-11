@@ -1,4 +1,4 @@
-import DashboardLayout from '@/components/layouts/DashboardLayout'
+import DashboardLayout from '@/components/layouts/dashboard/DashboardLayout'
 import './globals.css'
 
 export const metadata = {
