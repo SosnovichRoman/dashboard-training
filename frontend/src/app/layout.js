@@ -1,3 +1,4 @@
+import DashboardLayout from '@/components/layouts/DashboardLayout'
 import './globals.css'
 
 export const metadata = {
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html>
-			<body>{children}</body>
+			<body>
+				<DashboardLayout>{children}</DashboardLayout>
+			</body>
 		</html>
 	)
 }
